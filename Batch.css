@@ -1,0 +1,65 @@
+body{
+    color: green;
+    background-color: black;
+}
+
+p{
+    font-family:'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-style: italic;
+}
+img{
+    height: 500px;
+    width: 500px;
+    border-radius: 500px;
+}
+video{
+    height: 200px;
+}
+ol{
+    list-style-type: upper-roman;
+}
+ul{
+    list-style-type: circle;
+}
+h1{
+    padding: 50px;
+    border: 2px solid blue;
+}
+button{
+    background-color: sandybrown;
+    padding: 50px;
+    margin: 20px;
+}
+button:hover{
+    background-color: blueviolet;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+}
+#p1{
+    font-style: italic;
+}
+#p2{
+    font-style: normal;
+}
+.group{
+    font-size: xx-large;
+}
+#one{
+    grid-row: 1/2;
+}
+#two{
+    grid-row: 2/3;
+}
+#three{
+    grid-row: 2/3;
+}
+#four{
+    grid-row: 2/3;
+}
+.grid{
+    display: grid;
+    grid.template-columns: 33% 33% 33%
+}
